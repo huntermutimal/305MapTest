@@ -20,6 +20,7 @@ module com.mycompany.app {
   requires javafx.graphics;
   requires org.slf4j.nop;
     requires javafx.fxml;
+    requires java.desktop;
 
     exports com.mycompany.app;
 }
